@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+*{
+    font-family: 'VT323', monospace;
+    font-size: large;
+    
+}
+
+body{
+    background-image: url("/Img/background.png");
+    background-repeat: repeat;
+}
+
+.pokedex{
+    background-color: brown;
+    height: 500px;
+    width: 400px;
+    box-shadow: 10px 10px 30px #0000009a;
+    border-radius: 10px;
+    border: solid;
+    
+}
+
+.center {
+    margin: auto;
+    margin-top: 10%;
+    padding: 10px;
+  }
+
+.pantalla{
+    display: flex;
+    background-color: white;
+    width: 90%;
+    height: 50%;
+  outline-color: #B1B0B0 ;
+    outline-style: solid;
+    outline-width: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.pokeimage{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+.reiniciar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:  #519AFB ;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 0px 0px 5px #B1B0B0;
+    margin: 10px;
+
+}
+
+
+.container-busqueda{
+    margin-top: 30px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.buscar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgb(245,94,94);
+    background: radial-gradient(circle, rgba(245,94,94,1) 0%, rgba(221,7,47,1) 49%);
+    border-style: solid;
+    border-color: black;
+    box-shadow: 0px 0px 3px #000000;
+    margin-left: 15px;
+}
+.inputbusqueda{
+    height: 20px;
+    width: 180px;
+    font-size: large;
+}
+.dec1{
+    height: 30px;
+    width: 120px;
+    border-radius: 10px;
+    background-color:  #87fb51 ;
+    border-style: solid;
+    border-color: black;
+    margin: 10px;
+}
+.dec2{
+    margin: 10px;
+    height: 30px;
+    width: 120px;
+    border-radius: 10px;
+    background-color:  #fbe151 ;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.cont-but{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}

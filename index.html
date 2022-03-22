@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+        <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!--
+    <h1>Pokedex</h1>
+    <input type="text" name="pokename" id="pokename" placeholder="Pikachu"><br>
+    <img src="/Img/pokebola.png" alt="" id="pokeimg" style="width: 300px;"><br>
+    <button onclick="fetchPokemon()">Cambiar pokemon</button> -->
+        <section class="pokedex center">
+        <div class="pantalla center">
+            <img src="/Img/pokebola.png" alt="" id="pokeimg" class="pokeimage"><br>
+            <div class="container-datos">
+                <p id="pokeApiName">Nombre:</p>
+                <p id="pokeApiType">Tipo:</p>
+                <p id="pokeApiAtack">Ataque:</p>
+                <p id="pokeApiDefense">Defensa:</p>
+                <p id="pokeApiHP">PS:</p>
+                <p id="pokeApiWeight">Peso:</p>
+                
+            </div>
+        </div>
+<div class="cont-but">
+    <button class="reiniciar"></button>
+    <button class="dec1"></button>
+    <button class="dec2"></button>
+</div>
+        <div class="container-busqueda">
+            <input class="inputbusqueda" type="text" name="pokename" spellcheck="false" id="pokename" placeholder="Pikachu">
+            <button class="buscar" onclick="fetchPokemon()"></button>
+        </div>
+        </section>
+    
+
+
+</body>
+<footer>
+    <script src="Scripts/pokedex.js"></script>
+</footer>
+</html>
